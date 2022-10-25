@@ -9,7 +9,7 @@ import random
 
 bot_num = int(input("How many bots do you want? "))
 pin = input("What is the pin? ")
-PATH = r"C:\Users\maand\OneDrive\CodingProjects\Game-Cheesing\driver\chromedriver.exe"
+PATH = r"PATH to chromedriver"
 driver = webdriver.Chrome(PATH)
 
 
