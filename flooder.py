@@ -41,6 +41,8 @@ os.system("cls" if os.name == "nt" else "clear")
 current_window = driver.current_window_handle
 windows = driver.window_handles
 action = ActionBuilder(driver)
+
+# NUMBERS DEPEND ON MONITOR SIZE
 y_answers = [800, 200]
 x_answers = [100, 1700]
 while True:
